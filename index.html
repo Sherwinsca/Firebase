@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase| Google Mobile and Web app Development Platform</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section id="navbar-1">  
+       <nav class="navbar" id="navShadow">
+        <div style="z-index: 1;"> 
+            <span class="side_bar">
+                <input type="checkbox" id="check">
+                <label for="check">
+                 <i class="fa fa-bars" style="color: #040911;" id="btn"></i>
+                 <i class="fa fa-times" style="color: #171717;" id="cancel"></i>
+                </label>
+                <div class="sidebar">
+                  <header> My App </header>
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Shortcuts</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>             
+            </span>
+         </div>
+    
+        <span class="firebase_style"><img src="image/firebase2.png" height="35" width="65" id="firebase_img"></span>&emsp;&emsp;  
+        <span class="nav_elements">   
+            <span class="navbar_left">
+                <span> Products </span>&emsp;
+                <span> Solutions </span>&emsp;
+                <span> Pricing </span>&emsp;
+                <span> Docs </span>&emsp;
+                <span> Community </span>&emsp;
+                <span> Support </span>&emsp;
+            </span>   
+            <section class="navbar_right">
+                <span style="display: inline-flex !important;" class="nav-right">
+                    <img src="image/search.png"  height="30" width="30" class="search_icon" id="search-icon">
+                    <button class="search_btn rounded"> Search </button>&emsp;
+                    <img src="image/dot_sun.png" height="40" width="40" id="theme">&emsp;
+                    <span class="console_btn rounded"><b>Go to console</b></span>
+                    <img src="image/menu_dot.png" height="40" width="40">
+                    <img src="image/j.png" height="30" width="30" id="j-img">
+                </span>    
+            </section>       
+        </span>    
+        </div>
+       </nav>
+    </section>
+    <section  id="navbar-2" style="z-index: -1;">
+       <div class="navbar2">
+         <center>
+           <span class="navbar2_text"><b>Firebase Demo Day is here! Watch demos of how to build and grow AI-powered, full stack apps using the best of Google.</u></b>.</span>
+         </center>      
+        </div>
+    </section>
+    <section id="body_content"style="z-index: -1;">
+        <div class="container ">
+            <div class="body_style">
+                <span class="text_style"> Make your App the  best it can be</span><br><br>
+                <span class="def_style">Firebase is an app development platform that helps you  build and grow apps and games users love. Backed by Google and trusted by millions of businesses around the  world.</span><br>
+                <br><br><button class="started_btn rounded" id="start_btn"> <b> Get Started </b> </button>&emsp;
+                <span><a href="#" class="url_style rounded"><b>Try Demo </b> </a></span><span style="color: white;">|<a href="#" class="url_style rounded"><b>Watch Video</b><a></span>
+            </div>
+        </div>
+        <section  id="box_style"style="z-index: -1;">
+            <div class="container box_section rounded">
+                <div class="row box_start">
+                    <span class="box_heading"><center> <b> Products and solutions for every stage of your app development journey </b></center></span>
+                </div><br><br>
+                <div class="row box1_start" style="display: flex; align-items: center;">
+                    <div class="col-sm box1 rounded">
+                        <center>
+                            <img src="image/build.png" class="rounded-circle" height="150" width="150"><br>
+                            <span class="fontsize">Build</span><br><br>
+                            <p style="font-size:1.2rem;color: rgb(113, 114, 114);"><b>Accelerate app development with fully managed backend <br> infrastructure </b></p>
+                            <h5 style="color: rgb(7, 136, 241);" id="view_box" class="rounded"> View all Build products </h5>
+                            <h5 ><a href="#" style="color:rgb(160, 158, 158);">Cloud Firestore</a></h5>
+                            <h5 ><a href="#" style="color:rgb(160, 158, 158);">Authentication</a></h5>
+                            <h5 ><a href="#" style="color:rgb(160, 158, 158);">Extentions</a> </h5><br><br>
+                        </center>
+                    </div>
+                    <div class="col-sm box1 rounded">
+                        <center>
+                            <img src="image/rocket.png" class="rounded-circle" height="150" width="150"><br>
+                            <span class="fontsize">Release & Monitor</span><br><br>
+                            <p style="font-size:1.2rem;color: rgb(113, 114, 114);"><b>Release with confidence and monitor performance and stability</b> </p>
+                            <h5 style="color: rgb(7, 136, 241);" id="view_box" class="rounded"> View all Release & Monitor products </h5>
+                            <h5><a href="#" style="color:rgb(160, 158, 158);">Crashlytics</a> </h5>
+                            <h5><a href="#" style="color:rgb(160, 158, 158);">Performance <br> Monitoring</a> </h5>
+                            <h5><a href="#" style="color:rgb(160, 158, 158);">Google Ananltics </a></h5>
+                        </center>
+                    </div>
+                    <div class="col-sm box1 rounded">
+                        <center>
+                            <img src="image/developing.jpg" class="rounded-circle" height="150" width="150"><br>
+                            <span class="fontsize">Engage</span><br><br>
+                            <p style="font-size:1.2rem;color: rgb(113, 114, 114);"><b> Boost your engagement with rich analtics ,A/B testing, and messaging campaigns</b> </p>
+                            <h5 style="color: rgb(7, 136, 241);" id="view_box" class="rounded"> View all Engage products </h5>
+                            <h5 ><a href="#" style="color:rgb(160, 158, 158);">Remote Config</a> </h5>
+                            <h5><a href="#"  style="color:rgb(160, 158, 158);">Cloud messaging</a> </h5>
+                            <h5><a href="#"  style="color:rgb(160, 158, 158);"> A/B testing </a> </h5><br><br>
+                        </center>
+                    </div>
+                </div>
+                <div class="row list_sect">
+                    <div class="col-sm box2 rounded">
+                        <center>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Cloud Firestore</a></h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Extentions</a></h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">App Checks</a> </h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Cloud Functions</a></h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Authentication</a></h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Hosting</a> </h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Cloud Storage</a></h5>
+                            <h5 ><a href="#" style="color:rgb(90, 89, 89);">Realtime Database</a> </h5>
+                        </center>
+                    </div>
+                    <div class="col-sm box2 rounded">
+                        <center>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Crashlytics</a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Performance <br> Monitoring</a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Test lab </a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">App Distribution</a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Google Ananltics </a></h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Machine Learning </a></h5>
+                        </center>
+                    </div>
+                    <div class="col-sm box2 rounded">
+                        <center>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">In App Messaging</a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);"> A/B testing </a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);">Cloud messaging</a> </h5>
+                            <h5><a href="#" style="color:rgb(90, 89, 89);"> Remote Config </a> </h5>
+                        </center>
+                    </div>
+                   
+                </div>
+                <div style="padding-bottom: 10%;">
+                    <center><button class="products_btn rounded"> <h5>All Products <i class=" fa fa-angle-up scrollup__icon"></i></center> </h5></button>
+                </div>
+                <div class="file_extentions">
+                    <span class="box_heading"><center>  <b> File Extentions </b></center></span>
+                    <center>
+                        <p>Install pre-packaged, open-source bundles of code to automate common <br> development tasks</p>
+                        <div class="row fileexten_sect">
+                             <div class="col">
+                                <img src="image/img1.png"><br>
+                                <span ><a href="#" style="color: grey;font-size: 1rem;"> Stream Collections <br> to BigQuery </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/img2.png"><br>
+                                <span><a href="#" style="color: grey;font-size: 1rem;"> Search with Algolia </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/img3.png"><br>
+                                <span><a href="#" style="color: grey;font-size: 1rem;"> Trigger Email </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/img4.png"><br>
+                                <span><a href="#" style="color: grey;font-size: 1rem;"> Run Payments with <br> Stripe </a></span>
+                             </div>
+                        </div>
+                        <button class="explore_btn"> Explore extentions </button><br><br>
+                    </center>
+                </div>
+                
+                <div class="box_close">
+                    <center>Firebase Supports:&emsp;<i class=" fa fa-android" style="color: #818488;"></i>&emsp;<i class=" fa fa-apple" style="color: #6f7071;"></i>&emsp;<i class=" fa fa-cube" style="color: #747576;"></i>&emsp;<b> C++ </b></center>
+                </div>
+                
+            </div>
+        </section>
+        <section style="padding-top: 3%;z-index: -1;">
+            <div class="container box_section rounded" >
+                <div>
+                    <span  class="box_heading"><center> <b>Integrations</b></center></span>
+                    <center>
+                        <p style="font-size: 1.3rem;">Easily integrate Firebase with your team's favorite tools</p>
+                        <div class="row integrate_sect">
+                             <div class="col">
+                                <img src="image/googlead.png"><br>
+                                <span><a href="#" class="app_style"> Google <br> Ads </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/admob.png"><br>
+                                <span><a href="#" class="app_style"> Ad Mob</a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/gmarketting.png"><br>
+                                <span><a href="#" class="app_style"> Google Marketing Platform  </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/googleplay.png"><br>
+                                <span><a href="#" class="app_style"> Google Play </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/datastudio.png"><br>
+                                <span><a href="#" class="app_style"> Data Studio </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/bigquery.png"><br>
+                                <span><a href="#" class="app_style"> Big Query </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/slack.png"><br>
+                                <span><a href="#" class="app_style"> Slack </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/jira.png"><br>
+                                <span><a href="#" class="app_style"> Jira </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/pagerduty.png"><br>
+                                <span><a href="#" class="app_style"> Pager Duty </a></span>
+                             </div>
+                             <div class="col">
+                                <img src="image/androidstudio.png"><br>
+                                <span><a href="#" class="app_style"> Android studio </a></span>
+                             </div>
+                        </div>
+                        <button class="explore_btn"> Learn More </button><br><br>
+                    </center>
+                </div>
+                <div class="box_close">
+                    <div class="row">
+                        <div class="col-sm box_closeimg">
+                            <span style="font-size: 3rem;float: right;"><img src="image/google cloud.png" height="100" width="100" class="google_fireimg"> + <img src="image/firebase.png" height="100" width="100" class="google_fireimg"></span>
+                        </div>
+                        <div class="col" id="box_margin" style="float: left;">
+                            <span style="font-size: 1.3rem;">Google cloud + Firebase</span><br>
+                            <span style="font-size: small;">Firebase projects are backed by Google Cloud, <br>letting you scale your app to billions of users.</span><br>
+                            <a href="#" style="text-decoration: none;"> Read more </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        
+        <section style="padding-top: 3%;z-index: -1;">
+            <div class="container box_section rounded">
+                <div>
+                    <span class="appimg_sect"><center> <b>Trusted by the largest apps and games</b></center></span>
+                    <center>
+                        <p style="font-size: 1.3rem;">Development teams around the world—including NPR, Halfbrick, Duolingo,<br>and Venmo—use Firebase to ship their apps.</p>
+                        <div class="row" id="images_sect" style="display: inline flex;padding-top: 5%;">
+                            <div class="col-sm">
+                                <img src="image/pic1.png" class="pic1"><br>
+                            </div>
+                            <div class="col-sm">
+                                <img src="image/pic2.png" class="pic2" style="padding-left: 30px;"><br>
+                            </div>
+                            <div class="col-sm">
+                                <img src="image/pic3.png" class="pic3" style="padding-left: 100px;"><br>
+                            </div>
+                            <div class="col-sm">
+                                <img src="image/pic4.png" class="pic4" ><br>
+                            </div>
+                        </div><br><br><br>
+                        <div class="row" style="padding-left: 0.1%;">
+                            <div class="col">
+                                <img src="image/pic5.png" class="pic5"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic6.png"  class="pic6"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic7.png" class="pic7"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic8.png" class="pic8"><br>
+                            </div>
+                        </div><br><br>
+                        <div class="row" style="padding-bottom: 8%;">
+                            <div class="col">
+                                <img src="image/pic9.png"  class="pic9"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic10.png" class="pic10"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic11.png" class="pic11"><br>
+                            </div>
+                            <div class="col">
+                                <img src="image/pic12.png" class="pic12"><br>
+                            </div>
+                        </div>
+                    </center>
+                </div>   
+            </div>
+        </section>
+        <section style="padding-top: 3%;z-index: -1;">
+            <div class="container box_section rounded">
+                <div style="padding-bottom: 8%;">
+                    <span  class="box_heading"><center> <b>News & Events </b></center></span>
+                    <div class="row news_content">
+                             <div class="col">
+                                <img src="image/news1.png" height="150" width="300" id="news_pic1"><br>
+                                <span class="news_sect"><a href="#" > <b>Save the date for Firebase Demo Day 2023</b></a></span>
+                                <p>Tune in on November 8 for our first Demo <br> Day, a virtual experience where we'll unveil short demos (in the form of videos) that showcase what's new and what's possible <br> with Firebase.</p>
+                                <a href="#"  class="news_link"style="text-decoration: none;"><b> Learn more </b> </a>
+                             </div>
+                             <div class="col">
+                                <img src="image/news2.png" height="150" width="300" id="news_pic2"><br>
+                                <span class="news_sect"><a href="#" > <b>Blog: Get actionable feedback <br> from your Android testers with <br> App Distribution</b></a></span><br><br><br><br>
+                                <p> If you use App Distribution to send preview releases of your app to your trusted testers <br>  on Android, you can now allow them to leave feedback for you right</p>
+                                <a href="#" class="news_link" style="text-decoration: none;"><b>  View Video  </b>  </a>
+                             </div>
+                             <div class="col">
+                                <img src="image/news3.png" height="150" width="300" id="news_pic3"><br>
+                                <span  class="news_sect"><a href="#"> <b>#FirebaserFriday: Frank van Puffelen</b></a></span><br>
+                                <p>Join us for the monthly mini-profiles on Firebase team members, aka “Firebasers”, <br> from all around the world! Learn about their backgrounds, how they got started</p>
+                                <a href="#" class="news_link" style="text-decoration: none;"> <b> Read more </b> </a>
+                             </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <section style="padding-top: 3%;z-index: -1;">
+            <div class="container box_section rounded">
+                <div class="row common_sect">
+                    <div class="col-8" id="common_sect">
+                        <span class="box_heading"> <b>Common use cases</b> </span><br><br>
+                        <p style="font-size: medium;margin-right: 15%;text-align: left;">Use Firebase products together to solve complex challenges and optimize your app experience. Personalize your onboarding flow, grow user engagement, or add new functionality with Firebase.</p><br>
+                        <button class="explore_btn" > View Solutions </button><br><br>   
+                    </div>
+                    <div class="col-2">
+                        <img src="image/sideimg.png" class="sideimg_style" height="300" width="300">  
+                    </div> 
+                </div> 
+                
+            </div>
+        </section>
+        <section style="padding-top: 3%;z-index: -1;">
+            <div class="container box_section rounded">
+                <div >
+                    <span class="code_sect"><center>  <b>Easy to integrate on iOS,<br> &emsp;Android, and the Web</b></center></span>
+                    <center>
+                        <p style="font-size: 1.1rem;">Firebase provides detailed documentation and cross-platform app development <br> SDKs, to help you build and ship apps for iOS, Android, the web, Flutter, Unity, and <br> C++.</p>
+                        <section style="padding-top: 3%;z-index: -1;">
+                            <div class="container box_section rounded">
+                                <div class="row" style="padding-bottom: 8%;">
+                                    <div class="col-sm">
+                                        <div class="row" style="background-color: white;border:1px solid rgb(192, 190, 190);">
+                                            <div class="col-sm">
+                                                <span style="color:grey;margin-left: 9%;"></span><br><br>
+                                            </div>
+                                            <div class="col-sm-9" style=" background-color: rgb(41, 40, 40);padding-left: 3%;">
+                                                <nav class="nav_coding">
+                                                    <span class="row">
+                                                        <span>Swift</span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Objective</span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Kotlin + KTX  Android</span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Java  Android </span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Java Script </span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Dart  Flutter </span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>Unity</span>&emsp;&emsp;&emsp;
+                                                    <span>
+                                                    <span class="row">
+                                                        <span>C++</span>&emsp;&emsp;&emsp;
+                                                    <span>   
+                                                </nav>  
+                                            </div>
+                                        </div>
+                                        <div class="row" style="border:1px solid rgb(192, 190, 190);">
+                                            <div class="col-sm">
+                                                <div class="row"style="background-color: rgb(241, 117, 72);">
+                                                    <span style="color:whitesmoke;margin-left: 9%;padding-top: 7%;padding-bottom: 7%;"><b> Authenticate a new user</b> </span>
+                                                </div>
+                                                <div class="row">
+                                                    <span style="color:grey;margin-left: 9%;padding-top: 7%;padding-bottom: 7%;"><b> Read / Write in Real Time </b> </span>
+                                                </div>
+                                                <div class="row">
+                                                    <span style="color:grey;margin-left: 9%;padding-top: 7%;padding-bottom: 7%;"> <b>Subscribe a user to a notification topic</b> </span>
+                                                </div>
+                                                <div class="row">
+                                                    <span style="color:grey;margin-left: 9%;padding-top: 7%;padding-bottom: 7%;"><b>Log a custom Analytics event</b>  </span>
+                                                </div>
+                                                <div class="row">
+                                                    <span style="color:grey;margin-left: 9%;padding-top: 7%;padding-bottom: 7%;"><b>Save an image to Cloud Storage</b> </span>
+                                                </div>   
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <span style="float: right;"><img src="image/theme.png" height="15" width="15">&emsp;<i class=" fa fa-copy" style="color: #5c5e60;"></i></span>
+                                                <pre style="color: purple;">
+                                                    Auth.auth().addStateDidChangeListener { (auth, user) in
+                                                    if let user = user {
+                                                      let email = user.email
+                                                      // ...
+                                                    }
+                                                  }
+                                                  Auth.auth().signIn(withEmail: userEmail, password: password) { (user, error) in
+                                                    if let user = user {
+                                                      // ...
+                                                    }
+                                                  }</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </section>
+                        <button class="explore_btn" style="margin-left: 5%;"> View all Docs </button><br><br>
+                    </center>
+                </div>   
+            </div>
+        </section>
+        <section  id="firebase-try"style="z-index: -1;">
+            <div class="firebase_try">
+                <center>
+                    <img src="image/firebase.png" height="150" width="150">
+                    <div style="color: white;font-size: 2.8rem;"> Try Firebase today </div>
+                    <div style="color: white;font-size: 1.3rem;"> Integrating it into your app is easy </div><br>
+                    <button class="started_btn rounded"> <b> Get Started </b> </button>&emsp;
+                </center>
+                
+            </div>
+            
+        </section> 
+
+    </section>
+    <section  id="footer_sect">
+        <footer>
+            <div class="row footer_start">
+                <div class="col-sm" style="text-align: left;">
+                    <span style="color: black;"> Learn</span><br>
+                    <span> Guides </span><br>
+                    <span> Reference </span><br>
+                    <span> Samples </span><br>
+                    <span> Libraries </span><br>
+                    <span> GitHub </span><br>
+                </div>
+                <div class="col-sm" style="text-align: left;">
+                    <span style="color: black;"> Stay Connected </span><br>
+                    <span> Blog </span><br>
+                    <span> Firebase Summit </span><br>
+                    <span> Twitter </span><br>
+                    <span> You Tube </span><br>
+                </div>
+                <div class="col-sm" style="text-align: left;">
+                    <span style="color: black;">  Support </span><br>
+                    <span> Contact Support </span><br>
+                    <span> Stack Overflow </span><br>
+                    <span> Slack Community </span><br>
+                    <span> Google Group </span><br>
+                    <span> Release notes </span><br>
+                    <span> FAQs </span><br>
+                </div>
+            </div>
+            <div class="google_style" >
+                <span style="color: grey;"><b> <img src="image/google.png" height="50"weight="100"> for Developers </b> </span>&emsp;<br>
+                <span style="color: grey;"> Android </b></span>&emsp;
+                <span style="color: grey;"> Chrome </span>&emsp;
+                <span style="color: grey;"> Firebase </span>&emsp;
+                <span style="color: grey;"> Google Cloud Platform </span>&emsp;
+                <span style="color: grey;"> All Products </span>&emsp;
+            </div>
+            <div class="terms_sect">
+                <span style="color: rgb(92, 90, 90);"> Terms &emsp; |  &emsp; Privacy </span>&emsp;
+            </div>
+        </footer>
+    </section>
+    <section id="scroll_bar">
+        <div>
+            <button class="scrollup show_scroll" id="scroll_up" onclick="goTop()">
+                <i class=" fa fa-angle-up" style="color: #2f3032;"></i>
+            </button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+</body>
+</html>
