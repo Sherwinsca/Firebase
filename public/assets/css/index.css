@@ -1,10 +1,7 @@
 *{
-   
     list-style: none;
     text-decoration: none;
 }
-
-
 .sidebar{
     position: fixed;
     left: 0;
@@ -62,7 +59,6 @@ label #cancel{
     color: black;
     padding: 4px 9px;
     transition: all .5s ease;
-
 }
 #check:checked ~ .sidebar{
     left: 0;
@@ -76,10 +72,10 @@ label #cancel{
     left: 195px;
     
 }
-.firebase_style{
-    margin-left: 20px;
+.firebase_img{
+    margin-left: 20px !important;
 }
-.navbar{
+.nav_bar{
     width:100%;
     background-color:white;
     float:left;
@@ -88,7 +84,6 @@ label #cancel{
     position: fixed !important;
     z-index: 100 !important;    
     justify-content: flex-start !important;
-   
 }
 .show_shadow{
     border: gray 1px solid;
@@ -147,11 +142,11 @@ label #cancel{
     padding-top: 10%;
     padding-bottom: 15%;
 }
-.text_style{
+.heading_style{
     color:white;
     font-size: 3.2rem;
 }
-.def_style{
+.heading_def{
     font-size:x-large;
     color: white;
 }
@@ -193,15 +188,16 @@ label #cancel{
     color: rgb(82, 80, 80);
     font-size: 2.5rem;
     text-align: center;
+    margin-left: 20px;
 }
 .box_start{
     padding-left:2%;
     padding-top:2%
 }
-.fontsize{
+.box_heading{
     font-size: 2rem;
 }
-.box1{
+.box{
     border:1px solid rgb(175, 173, 173);
     box-shadow: 3px 0px 3px 0px grey;
     float:center;
@@ -210,14 +206,14 @@ label #cancel{
     margin-left:35px; 
     margin-right:35px;
 }
-.box1:hover{
+.box:hover{
     background-color: rgb(126, 187, 245);
 }
-.box1_start{
+.box_start{
     display: flex;
     align-items: center;
 }
-.box2{
+.box_list{
     float:center;
     padding-top: 2%;
     margin-left:35px; 
@@ -233,11 +229,11 @@ label #cancel{
     color: grey;
     font-size: 1rem;
 }
-.appimg_sect{
+.appsect_heading{
     color: rgb(82, 80, 80);
     font-size: 2.5rem; 
 }
-.news_sect{
+.news_heading{
     color: rgb(83, 83, 83);
     font-size: 1.25rem;
     float: left;
@@ -256,7 +252,6 @@ label #cancel{
     margin-right:9%;
     font-size: 1.3rem;
 }
-
 .box_close{
     background-color: rgb(232, 236, 236);
     color: rgb(109, 107, 107);
@@ -268,6 +263,15 @@ label #cancel{
     padding-top: 2%;
     padding-bottom:2%;
     color: whitesmoke;
+}
+.pic1{
+    margin-left: 3px !important;
+}
+.pic2{
+    margin-left: 60px !important;
+}
+.pic3{
+    margin-left: 18px !important;
 }
 #footer_sect{
     z-index: -1;
@@ -294,13 +298,12 @@ label #cancel{
     padding-bottom: 6%;
 }
 .common_sect{
-     margin-left: 3% !important;
+    margin-left: 3% !important;
 }
 .code_sect{
     color: rgb(82, 80, 80);
     font-size: 2.5rem;
 }
-
 .scrollup{
     position: fixed;
     right: 1rem;
@@ -316,17 +319,16 @@ section label #btn{
     display: none;
 }
 
-
 @media screen and (max-width:412px){
-    section .navbar .side_bar{
+    section .nav_bar .sidebar_container{
         top: 0px !important;
         bottom: 6px !important;
         font-size: 3px !important;
     }
-    section .navbar .navbar_left{
-        display: none;
+    section .nav_bar .navbar_left{
+        display: none; 
     }
-    section .navbar #firebase_img{
+    section .nav_bar #firebaseImg{
         height:20;
         width:25;
         padding-bottom: 12px;
@@ -365,13 +367,13 @@ section label #btn{
        text-align: center;
        padding-bottom: 50%;
     }
-    #box_style .box_section .box1_start .box1{
+    #boxStyle .box_section .box1_start .box1{
         margin-top: 5% !important;
      }
-    #body_content .body_style .text_style{
+    #body_content .body_style .heading_style{
         font-size: 2.5rem;
     }
-    #body_content .body_style .def_style{
+    #body_content .body_style .heading_def{
         font-size: 1rem;
          font-weight: bold;
     }
@@ -388,7 +390,7 @@ section label #btn{
         font-size: 1.5rem;
         text-align: center;
     }
-    #box_style .box_section .box1{
+    #boxStyle .box_section .box1{
         display: block;
         padding-bottom: 2%;   
     }
@@ -400,18 +402,18 @@ section label #btn{
         width: 50px !important;
         margin-right: 70px !important;
     }
-    .box_section .box_close #box_margin{
+    .box_section .box_close #box_content{
         margin-left: 60px !important;
     }
-    .box_section .file_extentions .fileexten_sect{
+    .box_section .file_extentions .fileextenImages_sect{
         display: grid;
     }
-    .box_section .integrate_sect{
+    .box_section .integrateimages_sect{
         display: grid;
         padding-bottom: 10%;
         font-size: 1.5rem;
     }
-    .box_section .appimg_sect{
+    .box_section .appsect_heading{
         font-size: 1.5rem;
         text-align: center;
     }
@@ -436,7 +438,7 @@ section label #btn{
         margin-left: 30px !important;
         padding-top: 15px;
     }
-    .box_section .news_sect {
+    .box_section .news_heading {
         margin-left: 30px !important;
         margin-right: 30px;
     }
@@ -469,7 +471,7 @@ section label #btn{
     .file_extentions .box_heading{
         font-size: 1.5rem;
     }
-    .integrate_sect .box_heading{
+    .integrateImages_sect .box_heading{
         font-size: 1.5rem !important;
     }
     #images_sect{
@@ -548,14 +550,13 @@ section label #btn{
     }  
 }
 
-
 @media screen and (min-width: 820px) {
-    section .navbar .side_bar{
+    section .nav_bar .sidebar_container{
         top: 0px !important;
         bottom: 6px !important;
         font-size: 1rem !important;
     }
-    section .navbar #firebase_img{
+    section .nav_bar #firebaseImg{
         height:20;
         width:25;
         padding-bottom: 12px;
@@ -591,7 +592,7 @@ section label #btn{
         box-sizing: border-box;
         color: white !important;
     }
-    #box_style .box_section .box1_start .box1{
+    #boxStyle .box_section .box1_start .box1{
         margin-top: 5% !important;
     }
     .box_section .common_sect .sideimg_style{
@@ -653,14 +654,13 @@ section label #btn{
    
 }
 
-
 @media screen and (min-width: 1280px) {
-    section .navbar .side_bar{
+    section .nav_bar .sidebar_container{
         top: 0px !important;
         bottom: 6px !important;
         font-size: 1rem !important;
     }
-    section .navbar #firebase_img{
+    section .nav_bar #firebaseImg{
         height:20;
         width:25;
         padding-bottom: 12px;
@@ -693,14 +693,14 @@ section label #btn{
         font-size:0.9rem;
         margin-left: 0px !important;
     }
-    #body_content .body_style .def_style{
+    #body_content .body_style .heading_def{
         font-size: 1.5rem !important;
     }
     
     .box_section .box_close .box_closeimg{
         margin-left: 150px !important;
     }
-    .box_section .box_close #box_margin{
+    .box_section .box_close #box_content{
         margin-left: 0% !important;
         margin-right: 100px !important;
     }
